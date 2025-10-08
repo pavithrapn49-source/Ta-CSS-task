@@ -1,0 +1,20 @@
+
+.hero-img-wrapper::before {
+  content: "";
+  position: absolute;
+  width: 420px;               /* slightly larger than image */
+  height: 420px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.45) 0%,   /* bright center */
+    rgba(255, 255, 255, 0.25) 35%,  /* soft middle */
+    rgba(255, 255, 255, 0.05) 70%,  /* fade */
+    transparent 100%                /* full transparent edge */
+  );
+  filter: blur(20px);
+  z-index: 1;
+}
