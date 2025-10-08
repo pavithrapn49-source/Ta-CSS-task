@@ -33,4 +33,4 @@ This project is licensed under the MIT License.
 
 ## Author
 
-- [Your Name](https://github.com/your-username)
+- [PAVITHRA P N https://github.com/pavithrapn49-source/Ta-CSS-task
